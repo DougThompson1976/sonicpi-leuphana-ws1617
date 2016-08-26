@@ -1,7 +1,7 @@
 # Ästhetik, Regel, Klang
 ## Musikprogrammierung mit Sonic Pi
 
-Code, Ressourcen und Dokumentationen zum Projektseminar an der Leuphana Universität Lüneburg, Wintersemester 2015/16
+Code, Ressourcen und Dokumentationen zum Projektseminar an der Leuphana Universität Lüneburg, Wintersemester 2016/17
 
 > Use code to compose and perform in classical and contemporary styles ranging from Canons to Dubstep. 
 > (Sam Aaron)
