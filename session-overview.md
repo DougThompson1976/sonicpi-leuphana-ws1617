@@ -1,5 +1,7 @@
 # Übersicht der Sessions
 
+Diese Übersicht ist *vorläufig*. Die endgültige Planung für die Einzelsitzung wird zur ersten Sitzung zur Verfügung stehen.
+
 ## Einführung
 
 Session 1
