@@ -1,6 +1,6 @@
 # Übersicht der Sessions
 
-Diese Übersicht ist *vorläufig*. Die endgültige Planung für die Einzelsitzung wird zur ersten Sitzung zur Verfügung stehen.
+Diese Übersicht ist __vorläufig__. Die endgültige Planung für die Einzelsitzungen wird zur ersten Sitzung zur Verfügung stehen.
 
 ## Einführung
 
