@@ -109,9 +109,13 @@ Datum: 13.12.2016
 
 Datum: 10.01.2016
 
-- Referat: Elektronische Musik II, 'Advice to clever children': Aphex Twin, Plasticman, Scanner, Daniel Pemberton u.a.
+- Referat: Elektronische Musik II, "Advice to clever children": Aphex Twin, Plasticman, Scanner, Daniel Pemberton u.a.
 - Musikalische Analyse und Nachbau in Sonic Pi (Audacity, SonicVisualizer, Codebeispiele und Erläuterungen)
 - Pair Programming
+
+### Referat
+
+- Text: 'Advice to clever children' (Leitfrage: Welche Unterschiede in der Konzeption von 'elektronischer Musik' werden deutlich? Welche Gemeinsamkeiten gibt es?)
 
 ### Ressourcen
 
