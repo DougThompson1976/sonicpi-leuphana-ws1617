@@ -115,7 +115,7 @@ Datum: 10.01.2016
 
 ### Referat
 
-- Text: 'Advice to clever children' (Leitfrage: Welche Unterschiede in der Konzeption von 'elektronischer Musik' werden deutlich? Welche Gemeinsamkeiten gibt es?)
+- Text: "Advice to clever children" (Leitfragen: Welche Unterschiede in der Konzeption von 'elektronischer Musik' werden deutlich? Welche Gemeinsamkeiten gibt es?)
 
 ### Ressourcen
 
