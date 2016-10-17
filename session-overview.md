@@ -124,7 +124,7 @@ Datum: 10.01.2016
 
 ## Session 7: Offene Enden: Rückblick, Vorstellung der Arbeitsproben, Ausblick
 
-Datum:, 24.01.2016
+Datum: 24.01.2016
 
 - Vorstellung der vorläufigen Arbeitsergebnisse
 - Rekapitulation
