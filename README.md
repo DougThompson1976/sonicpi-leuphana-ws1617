@@ -3,6 +3,8 @@
 
 Code, Ressourcen und Dokumentationen zum Projektseminar an der Leuphana Universität Lüneburg, Wintersemester 2016/17
 
+[Zur Sessionübersicht](https://github.com/mbutz/sonicpi-leuphana-ws1617/blob/master/session-overview.md)
+
 > Use code to compose and perform in classical and contemporary styles ranging from Canons to Dubstep. 
 > (Sam Aaron)
 
@@ -27,5 +29,11 @@ Desweiteren bietet das Seminar Gelegenheit, sich mit den folgenden Fragen und Th
 * Computergenerierte Musik (Beispiele, Historie)
 * Grundlegende musiktheoretische Konzepte (z.B. Melodik, Harmonik, Rhythmik)
 * Grundlegende Konzepte der Akustik und digitaler Klangerzeugung (Synthesizer, Sampling)
+
+## Ressourcen zu Sonic Pi
+
+* [Offizielle Website und Download](http://sonic-pi.net/)
+* [Github: Entwicklerplattform](https://github.com/samaaron/sonic-pi)
+* [Google Groups - Community zu Sonic Pi](https://groups.google.com/forum/#!forum/sonic-pi)
 
 [Zur Sessionübersicht](https://github.com/mbutz/sonicpi-leuphana-ws1617/blob/master/session-overview.md)

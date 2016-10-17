@@ -124,7 +124,7 @@ Datum: 10.01.2016
 
 ## Session 7: Offene Enden: Rückblick, Vorstellung der Arbeitsproben, Ausblick
 
-Session 7, 24.01.2016
+Datum:, 24.01.2016
 
 - Vorstellung der vorläufigen Arbeitsergebnisse
 - Rekapitulation
@@ -173,6 +173,9 @@ by Toby W. Rush
 
 http://tobyrush.com/theorypages/
 
-**Kreativität**
+**Kreativität & Ästhetik**
 
 DeSantis, Dennis (2015): Making Music. 74 Creative Strategies for Electronic Music Producers, Berlin: Ableton.
+
+Bense, Arne (2016): Live – eine gelöschte Unterscheidung, Blogbeitrag vom 12.08.2016, letzter Abruf am: 10.10.2016, https://netzpolitik.org/2016/live-eine-geloeschte-unterscheidung/
+Was bedeutet eigentlich „live“? Obwohl die Beantwortung dieser Frage alles andere als trivial ist, geistert der Begriff durch die Welt der elektronischen Musik und trennt die Szene in elektronische Live- und DJ-Culture.
