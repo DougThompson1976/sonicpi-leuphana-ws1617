@@ -135,43 +135,23 @@ Datum: 24.01.2016
 
 **FACT Magazin, 3 Artikel zur Einführung in Werkzeuge zur Erstellung von elektronischer Musik**
 
-1. The 14 most important synths in electronic music history – and the musicians who use them, by John Twells, Sep 15 2016
+The 14 most important synths in electronic music history – and the musicians who use them, John Twells, Sep 15 2016, http://www.factmag.com/2016/09/15/14-most-important-synths/
 
-http://www.factmag.com/2016/09/15/14-most-important-synths/
+The 14 pieces of software that shaped modern music, by John Twells, Oct 1 2016, http://www.factmag.com/2016/10/01/the-14-pieces-of-software-that-shaped-modern-music
 
-2. The 14 pieces of software that shaped modern music, by John Twells, Oct 1 2016
+15 samplers that shaped modern music – and the musicians who use them, Laurent Fintoni, Sep 15 2016, http://www.factmag.com/2016/09/15/15-samplers-that-shaped-modern-music/
 
-http://www.factmag.com/2016/10/01/the-14-pieces-of-software-that-shaped-modern-music
+**Samples (Download)**
 
-3. 15 samplers that shaped modern music – and the musicians who use them
-By Laurent Fintoni, Sep 15 2016
+Freesound.org: Freesound aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse, http://www.freesound.org
 
-http://www.factmag.com/2016/09/15/15-samplers-that-shaped-modern-music/
+Philharmonic Orchestra: Thousands of free, downloadable sound samples specially recorded by Philharmonia Orchestra players. These samples are suitable for creating any kind of music, no matter what style: http://www.philharmonia.co.uk/explore/make_music
 
+**Akustik, Klang, Musiktheorie**
 
-**Philharmonic Orchestra**
+The Physics Hypertextbook. Music & Noise, Glenn Elert, http://physics.info/music/
 
-Thousands of free, downloadable sound samples specially recorded by Philharmonia Orchestra players. These samples are suitable for creating any kind of music, no matter what style.
-
-http://www.philharmonia.co.uk/explore/make_music
-
-**Freesound.org**
-
-Freesound aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse.
-
-http://www.freesound.org
-
-**The Physics Hypertextbook**
-
-Music & Noise, by Glenn Elert
-
-http://physics.info/music/
-
-**Music Theory for Musicians and Normal People
-
-by Toby W. Rush
-
-http://tobyrush.com/theorypages/
+Music Theory for Musicians and Normal People, Toby W. Rush, http://tobyrush.com/theorypages/
 
 **Kreativität & Ästhetik**
 
