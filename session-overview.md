@@ -14,7 +14,7 @@ Datum: 18.10.2016
 ### Ressourcen
 
 - Sonic Pi-Dokumentation "Tutorial" und "Beispiele"
-- Vortrag zu Sonic Pi, Berlin 2015, Re:publica, http://www.mkblog.org/2016/05/04/republica-ten-hoerbar-programmieren-mit-sonic-pi/
+- Blogbeitrag zu Sonic Pi anlässlich der Re:publica (Berlin, 2016) mit Vortrag, Folien und Code-Beispielen,  http://www.mkblog.org/2016/05/04/republica-ten-hoerbar-programmieren-mit-sonic-pi/
 - Kyle Kingsbury: Core language concepts, https://aphyr.com/posts/266-core-language-concepts
 
 ## Session 2: Synthesizer in Sonic Pi, live_Loop, tick & look
