@@ -172,6 +172,8 @@ Alexandre rANGEL 'bit crusher' Sonic Pi live coding, https://www.youtube.com/wat
 
 Live coding dub techno in Sonic Pi von Jindřich Mynarz, https://www.youtube.com/watch?v=a1RxpJkvqpY
 
-The Wood-Song: Ambient Live Coding Exercise with Sonic Pi, https://www.youtube.com/watch?v=3zGt-1JSfgA
+The Wood-Song: Ambient Live Coding Exercise with Sonic Pi, M.Butz, https://www.youtube.com/watch?v=3zGt-1JSfgA
 
 Live Coding with Sonic Pi, M. Butz, https://www.youtube.com/watch?v=80Sw7G-4nno
+
+Toplap - Home of Live Coding, http://toplap.org/
