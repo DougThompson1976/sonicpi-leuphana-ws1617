@@ -159,3 +159,19 @@ DeSantis, Dennis (2015): Making Music. 74 Creative Strategies for Electronic Mus
 
 Bense, Arne (2016): Live – eine gelöschte Unterscheidung, Blogbeitrag vom 12.08.2016, letzter Abruf am: 10.10.2016, https://netzpolitik.org/2016/live-eine-geloeschte-unterscheidung/
 Was bedeutet eigentlich „live“? Obwohl die Beantwortung dieser Frage alles andere als trivial ist, geistert der Begriff durch die Welt der elektronischen Musik und trennt die Szene in elektronische Live- und DJ-Culture.
+
+***Live Coding***
+
+Sam Aaron live coding a DJ set with Sonic Pi , https://www.youtube.com/watch?v=KJPdbp1An2s
+
+Sam Aaron live coding an ambient electro set w/ Sonic Pi, https://www.youtube.com/watch?v=G1m0aX9Lpts
+
+Live Coding Channel von Sam Aaron, https://www.livecoding.tv/samaaron/
+
+Alexandre rANGEL 'bit crusher' Sonic Pi live coding, https://www.youtube.com/watch?v=7Yr-HGRikRg
+
+Live coding dub techno in Sonic Pi von Jindřich Mynarz, https://www.youtube.com/watch?v=a1RxpJkvqpY
+
+The Wood-Song: Ambient Live Coding Exercise with Sonic Pi, https://www.youtube.com/watch?v=3zGt-1JSfgA
+
+Live Coding with Sonic Pi, M. Butz, https://www.youtube.com/watch?v=80Sw7G-4nno
