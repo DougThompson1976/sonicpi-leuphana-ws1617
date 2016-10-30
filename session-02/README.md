@@ -2,7 +2,7 @@
 
 ## Beispiele für Klangsynthese und Hüllkurven (Sonic Visualizer)
 
-[Sonic Visualiser](http://sonicvisualiser.org/) is an application for viewing and analysing the contents of music audio files. It is available for Linux, MacOSX (RT) and Windows (RT) [here](http://sonicvisualiser.org/download.html).
+[Sonic Visualiser](http://sonicvisualiser.org/) ist ein Programm mit dem der Inhalt von Sound und Musik-Dateien visualisiert und untersucht werden kann. Es steht [zum Download](http://sonicvisualiser.org/download.html) für Linux, MacOSX® und Windows®.
 
 * [Wellenformen](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/session-02/sonic-visualizer/wave-forms)
 * [Hüllkurve, ADSR-Envelope](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/session-02/sonic-visualizer/adsr)
