@@ -9,6 +9,8 @@ Diese beiden folgenden Ordner enthalten MP3-Klangdateien, die mit Sonic Pi aufge
 * [Wellenformen](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/session-02/sonic-visualizer/wave-forms)
 * [Hüllkurve, ADSR-Envelope](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/session-02/sonic-visualizer/adsr)
 
+Beispiele der Klangspektren unterschiedlicher Musikinstrumente finden sich unter: [ETHZ, Gelenktes Entdeckendes Lernen im Physikunterricht, Analyse von Klangspektren](http://www.aplu.ch/overtone/hauser/). Die X-Achse zeigt die Lautstärke der jeweiligen Obertöne, die Y-Achse die Frequenz bzw. Tonhöhe. Aufgabe: Vergleich der Klangspektren einer [Violine](http://www.aplu.ch/overtone/hauser/violine.gif) mit dem einer [Altflöte](http://www.aplu.ch/overtone/hauser/altfloete.gif) (die Angaben der Millisekunden unterhalb der Abbildung beziehen sich auf den Zeitpunkt innerhalb der [Klangdateien](http://www.aplu.ch/overtone/hauser/audio.zip), an dem das Spektrum aufgenommen wurden).
+
 ## Einführung in Funktionsweise und Komponenten eines Synthesizers
 
 * [A Young Person's Guide to the Principles of Music Synthesis (by Beau Sievers)](http://beausievers.com/synth/synthbasics/), [PDF](https://github.com/mbutz/sonicpi-leuphana-ws1617/blob/master/session-02/Synthesis-Basics.pdf)
