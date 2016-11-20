@@ -436,7 +436,7 @@ comment do
   end
 end
 
-uncomment do
+comment do
   puts "And here the same progression - but this time ending"
   puts "on the VI degree in minor. As above mentioned this is"
   puts "called a 'false cadence' because the 'true' one would"
