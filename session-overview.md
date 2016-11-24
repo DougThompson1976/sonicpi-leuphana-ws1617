@@ -147,6 +147,8 @@ Freesound.org: Freesound aims to create a huge collaborative database of audio s
 
 Philharmonic Orchestra: Thousands of free, downloadable sound samples specially recorded by Philharmonia Orchestra players. These samples are suitable for creating any kind of music, no matter what style: http://www.philharmonia.co.uk/explore/make_music
 
+59,413 free sample downloads (A to Z), The MusicRadar Team (01.10.2016), http://www.musicradar.com/news/tech/free-music-samples-download-loops-hits-and-multis-627820
+
 **Akustik, Klang, Musiktheorie**
 
 The Physics Hypertextbook. Music & Noise, Glenn Elert, http://physics.info/music/
