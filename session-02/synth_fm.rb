@@ -52,7 +52,7 @@ pool =  [degree(1, :c5, :mixolydian),
 # 18 = Pfeifende Glissandi, tief
 # 19 = Urwald
 # 20 = Flöte
-ex = 1
+ex = 10
 
 
 # Example 1
