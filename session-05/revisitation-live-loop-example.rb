@@ -19,13 +19,6 @@ comment do
 end #comment
 
 comment do
-  # play_pattern_timed, synth, extended bassline
-
-  # General Settings
-  # What Temp?
-  use_bpm 130
-
-  # What synth?
   use_synth :fm
   use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.5
 
@@ -54,7 +47,7 @@ comment do
 end #comment
 
 
-uncomment do
+comment do
   ################################################################################
   # Adding Filters
   ################################################################################
@@ -75,7 +68,7 @@ uncomment do
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # Adding Let the Synth & Filter look
   ################################################################################
@@ -97,14 +90,12 @@ uncomment do
   res = (line 0.5, 0.95, steps: 264, inclusive: true).ramp
 
   live_loop :bass, sync: :beat do
-    #2.times do
-      with_synth_defaults depth: depth.look, release: 0.75 do
-        with_fx :rlpf, cutoff: cutoff.look, res: res.look do
-          play bassline.tick, amp: 1
-        end
-        sleep 0.5
+    with_synth_defaults depth: depth.look, release: 0.75 do
+      with_fx :rlpf, cutoff: cutoff.look, res: res.look do
+        play bassline.tick, amp: 1
       end
-    #end
+      sleep 0.5
+    end
   end
 
 end #comment
@@ -121,38 +112,34 @@ comment do
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # A Bit of Rhythm Variation
   ################################################################################
   live_loop :kick, sync: :beat do
     bd = (ring 2, 0, 0, 0, 2, 0, 0, 0.5, 2, 0, 0, 0, 2, 0.5, 0, 1)
-    #4.times do
-      if bd.tick != 0
-        sample :bd_haus, amp: bd.look
-      end
-      sleep 0.25
-    #end
+    if bd.tick != 0
+      sample :bd_haus, amp: bd.look
+    end
+    sleep 0.25
   end
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # A Simple Hihat
   ################################################################################
 
   live_loop :hihat, sync: :beat do
-    #4.times do
-      sleep 0.5
-      sample :drum_cymbal_closed, amp: 3, finish: 0.15
-      sleep 0.5
-    #end
+    sleep 0.5
+    sample :drum_cymbal_closed, amp: 3, finish: 0.15
+    sleep 0.5
   end
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # A Shaker
   ################################################################################
@@ -161,17 +148,15 @@ uncomment do
   use_synth_defaults release: 0.15
 
   live_loop :shaker, sync: :beat do
-    #2.times do
-      with_fx :hpf, cutoff: 115 do
-        play :c, amp: 1.5
-      end
-      sleep 0.25
+    with_fx :hpf, cutoff: 115 do
+      play :c, amp: 1.5
+    end
+    sleep 0.25
 
-      with_fx :hpf, cutoff: 110 do
-        play :c
-      end
-      sleep 0.25
-    #end
+    with_fx :hpf, cutoff: 110 do
+      play :c
+    end
+    sleep 0.25
   end
 
 end #comment
@@ -197,7 +182,7 @@ comment do
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # Rhythm Chords, setting differnt chords
   ################################################################################
@@ -211,17 +196,15 @@ uncomment do
   my_chords_amp = (line 0, 3, steps: 528, inclusive: true).ramp
 
   live_loop :chords, sync: :bar do
-    #4.times do
-      if my_chords.tick != :r
-        play chord(:c4, my_chords.look), amp: my_chords_amp.look
-      end
-      sleep 0.25
-    #end
+    if my_chords.tick != :r
+      play chord(:c4, my_chords.look), amp: my_chords_amp.look
+    end
+    sleep 0.25
   end
 
 end #comment
 
-uncomment do
+comment do
   ################################################################################
   # Ornamental Synth Phrase
   ################################################################################
@@ -231,12 +214,10 @@ uncomment do
   my_ornament = (ring :g5,:c6,:bb5,:c6,:d6,:bb5,:c6,:d6)
 
   live_loop :ornament, sync: :beat do
-    #2.times do
-      with_fx :reverb, room: 0.5, mix: 0.5 do
-        play my_ornament.tick, amp: 1.5
-      end
-      sleep 0.5
-    #end
+    with_fx :reverb, room: 0.5, mix: 0.5 do
+      play my_ornament.tick, amp: 1.5
+    end
+    sleep 0.5
   end
 
 end #comment
@@ -244,7 +225,7 @@ end #comment
 ################################################################################
 # Drum Samples
 ################################################################################
-uncomment do
+comment do
 
   # http://99sounds.org/radiophonic-atmospheres/
   s_path = "/home/marty/projects/sonicpi/playground/audio/samples/99Sounds Radiophonic Atmospheres by Red Sky Lullaby/Rhythmic Atmospheres"
@@ -252,12 +233,13 @@ uncomment do
   # 1 = Bit Beat
   # 5 = Clicktronic (amp 8)
   # 16 = Hex Beat
-  #  32 = Vocodey Beat
+  # 32 = Vocodey Beat
 
   live_loop :radiophonic_sample, sync: :bar do
     s_no = 15
     s_stretch = 32
     s_amp = 5
+
     with_fx :pitch_shift, pitch: 0 do
       sample s_path, s_no, beat_stretch: s_stretch, amp: s_amp
     end
