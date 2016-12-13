@@ -114,6 +114,27 @@ end #comment
 
 comment do
   ################################################################################
+  # A Kick Drum Combination with Spread
+  ################################################################################
+  live_loop :kick, sync: :bar do
+    stop
+    if spread(2,4).tick
+      sample :bd_fat, lpf: 60, amp: 1
+    end
+    sleep 1
+  end
+
+  live_loop :kicka, sync: :bar do
+    if spread([5].choose,16).tick
+      sample :bd_fat, lpf: 80, amp: 0.5
+    end
+    sleep 0.25
+  end
+
+end #comment
+
+comment do
+  ################################################################################
   # A Bit of Rhythm Variation
   ################################################################################
   live_loop :kick, sync: :beat do
