@@ -93,7 +93,7 @@ Datum: 29.11.2016
 Datum: 13.12.2016
 
 - Referat: Elektronische Musik am Beispiel von "Kontakte" von Karlheinz Stockhausen
-- Sequencing, `if`, Zufallsfunktionen (Codebeispiele und Erläuterungen)
+- Wiederholung des Materials aus vorhergehenden Sessions (Tonfolgen, Effekte, '''live_loop''', '''in_thread''' etc.)
 - Pair Programming
 
 ### Referat
