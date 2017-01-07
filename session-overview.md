@@ -170,7 +170,7 @@ DeSantis, Dennis (2015): Making Music. 74 Creative Strategies for Electronic Mus
 Bense, Arne (2016): Live – eine gelöschte Unterscheidung, Blogbeitrag vom 12.08.2016, letzter Abruf am: 10.10.2016, https://netzpolitik.org/2016/live-eine-geloeschte-unterscheidung/
 Was bedeutet eigentlich „live“? Obwohl die Beantwortung dieser Frage alles andere als trivial ist, geistert der Begriff durch die Welt der elektronischen Musik und trennt die Szene in elektronische Live- und DJ-Culture.
 
-***Live Coding***
+**Live Coding**
 
 Bericht über Live-Coding im Deutschlandfunk vom 18.10.2016, http://www.deutschlandfunk.de/live-coding-konferenz-die-leute-koennen-sehen-wie-musik.807.de.html?dram:article_id=368890
 
