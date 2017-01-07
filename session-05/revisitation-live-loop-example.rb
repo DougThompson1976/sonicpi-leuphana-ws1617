@@ -15,7 +15,7 @@ end
 
 comment do
   # play_pattern_timed
-  play_pattern_timed (ring :c3, :c3, :g3, :bb3), (ring 0.5)
+  play_pattern_timed (ring :c3, :c3, :g3, :bb3), (ring 0.5, 1, 2, 0.5)
 end #comment
 
 comment do
@@ -61,14 +61,14 @@ comment do
 
   live_loop :bass do
     with_fx :lpf, cutoff: 50 do
-      play bassline.tick, amp: 3
+      play bassline.tick, amp: 1
     end
     sleep 0.5
   end
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # Adding Let the Synth & Filter look
   ################################################################################
@@ -106,7 +106,7 @@ comment do
   # A Kick Drum
   ################################################################################
   live_loop :kick do
-    sample :bd_haus
+    sample :bd_haus, cutoff: 130
     sleep 1
   end
 
@@ -117,15 +117,14 @@ comment do
   # A Kick Drum Combination with Spread
   ################################################################################
   live_loop :kick, sync: :bar do
-    stop
-    if spread(2,4).tick
-      sample :bd_fat, lpf: 60, amp: 1
+     if spread(2,4).tick
+      sample :bd_fat, lpf: 80, amp: 1
     end
     sleep 1
   end
 
   live_loop :kicka, sync: :bar do
-    if spread([5].choose,16).tick
+    if spread([5,7,9,11].choose,16).tick
       sample :bd_fat, lpf: 80, amp: 0.5
     end
     sleep 0.25
@@ -133,7 +132,7 @@ comment do
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # A Bit of Rhythm Variation
   ################################################################################
@@ -147,7 +146,7 @@ comment do
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # A Simple Hihat
   ################################################################################
@@ -160,7 +159,7 @@ comment do
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # A Shaker
   ################################################################################
@@ -203,7 +202,7 @@ comment do
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # Rhythm Chords, setting differnt chords
   ################################################################################
@@ -225,7 +224,7 @@ comment do
 
 end #comment
 
-comment do
+uncomment do
   ################################################################################
   # Ornamental Synth Phrase
   ################################################################################
@@ -246,7 +245,7 @@ end #comment
 ################################################################################
 # Drum Samples
 ################################################################################
-comment do
+uncomment do
 
   # http://99sounds.org/radiophonic-atmospheres/
   s_path = "/home/marty/projects/sonicpi/playground/audio/samples/99Sounds Radiophonic Atmospheres by Red Sky Lullaby/Rhythmic Atmospheres"
@@ -257,12 +256,13 @@ comment do
   # 32 = Vocodey Beat
 
   live_loop :radiophonic_sample, sync: :bar do
-    s_no = 15
-    s_stretch = 32
-    s_amp = 5
+    s_no = 5
+    s_stretch = 8
+    s_amp = 3
 
     with_fx :pitch_shift, pitch: 0 do
       sample s_path, s_no, beat_stretch: s_stretch, amp: s_amp
+      #sample s_path, 15, beat_stretch: 32, amp: 5
     end
     sleep sample_duration(s_path, s_no, beat_stretch: s_stretch)
   end

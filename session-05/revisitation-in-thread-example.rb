@@ -135,25 +135,25 @@ end
 # Play the Song
 ################################################################################
 
-# bassline_in
-# sleep 16
+bassline_in
+sleep 16
 
-# hihat
-# sleep 16
+hihat
+sleep 16
 
-# bassline
-# hihat
-# shaker
-# sleep 16
+bassline
+hihat
+shaker
+sleep 16
 
-# bassline
-# hihat
-# shaker
-# kick
-# sleep 16
+bassline
+hihat
+shaker
+kick
+sleep 16
 
-# hihat
-# shaker
-# bassline_out
-# sleep 32
+hihat
+shaker
+bassline_out
+sleep 32
 
