@@ -18,36 +18,48 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ![Playback, Werkzeuge und Ebenen](img/sv-01.png)
 
-1. Text
-2. Text
+1. Wiedergabesteuerung
+2. Werkzeuge
+  - Navigation/Verschieben der Time-Line
+  - Auswahlwerkzeug
+  - Verschieben (z. B. von Text)
+  - Editieren (z. B. von Text)
+  - Löschen (z. B. von Text)
+3. Aktuell anzeigbare Ebenen
+  1. Einstellungen für alle Ebenen
+  2. Zeitunterteilung
+  3. Wellenform
+  4. Einteilung in Abschnitte
 
 ## Sequenzierung
 
 ![Sequenzierung 1](img/sv-02.png)
 
-1. Text
-2. Text
+1. Eingefügte und automatisch numerierte Markierungen bzw. Takte (mit `Enter` oder `;`)
+2. Jede Ebene (hier die Unterteilung in Takte) bietet eigene Einstellungen (hier: Farbe und Ansichtsmodus)
+3. Die Taktmarkierungen können mit einem rhythmischen Klang hörbar gemacht werden; man kann sie ausblenden oder stummschalten sowie Lautstärke und Position im Stereo-Panorama regeln.
 
 ![Sequenzierung 2](img/sv-03.png)
 
-1. Text
-2. Text
+1. Die Ebene mit den Takteinteilung im Modus `Segmentation` und in violett eingefärbt
+2. Die Takte werden wechselseitig hell bzw. dunkler gekennzeichnet.
 
 ## Annotation
 
 ![Annotation 1](img/sv-04.png)
 
-1. Text
-2. Text
+1. Hinzufügen einer Textebene
+2. Die Textebene wird blau eingefärbt
+3. Textlabels können mit dem Stift eingefügt, mit dem Kreuz verschoben und mit dem Radierer gelöscht werden.
 
-![Annotation 2](sv-09.png)
+![Annotation 2](img/sv-09.png)
 
 1. Text
 2. Text
 
 ## Auswahl und Looping
 
-![Auswahl und Looping](sv-05.png)
+![Auswahl und Looping](img/sv-05.png)
 
 1. Text
 2. Text
