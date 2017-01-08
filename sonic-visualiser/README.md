@@ -1,6 +1,6 @@
 # Sonic Visualiser
 
-Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotiert werden können. Es ist als Open Source verfügbar für Windows, OS/X und Linux.
+Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotiert werden können. Das Programm ist als Open Source verfügbar für Windows, OS/X und Linux.
 
 ## Download, Plugins und Hilfe
 
@@ -16,7 +16,7 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ## Playback, Werkzeuge und Ebenen
 
-![01](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-01.png)
+![Playback, Werkzeuge und Ebenen](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-01.png)
 
 1. Text
 2. Text
