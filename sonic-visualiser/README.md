@@ -16,7 +16,7 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ## Playback, Werkzeuge und Ebenen
 
-![Playback, Werkzeuge und Ebenen](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-01.png)
+![Playback, Werkzeuge und Ebenen](img/sv-01.png)
 
 1. Text
 2. Text
