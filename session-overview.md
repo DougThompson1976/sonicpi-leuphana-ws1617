@@ -93,7 +93,7 @@ Datum: 29.11.2016
 Datum: 13.12.2016
 
 - Referat: Elektronische Musik am Beispiel von "Kontakte" von Karlheinz Stockhausen
-- Sequencing, `if`, Zufallsfunktionen (Codebeispiele und Erläuterungen)
+- Wiederholung des Materials aus vorhergehenden Sessions (Tonfolgen, Effekte, `live_loop`, `in_thread` etc.)
 - Pair Programming
 
 ### Referat
@@ -119,7 +119,7 @@ Datum: 10.01.2016
 
 ### Ressourcen
 
-- Interview mit Karlheinz Stockhausen, 'Advice to clever children', "The Wire", November 1995, http://www.andreas.de/aphextwin/articles/interview2.html
+- Interview mit Karlheinz Stockhausen, 'Advice to clever children', "The Wire", November 1995, http://www.stockhausen.org/ksadvice.html
 - Karlheinz Stockhausen, Gesang der Jünglinge, https://www.youtube.com/watch?v=nffOJXcJCDg
 
 ## Session 7: Offene Enden: Rückblick, Vorstellung der Arbeitsproben, Ausblick
@@ -149,11 +149,19 @@ Philharmonic Orchestra: Thousands of free, downloadable sound samples specially 
 
 59,413 free sample downloads (A to Z), The MusicRadar Team (01.10.2016), http://www.musicradar.com/news/tech/free-music-samples-download-loops-hits-and-multis-627820
 
-**Akustik, Klang, Musiktheorie**
+Free Wave Samples: Free Wave Samples provides high-quality wav files free for use in your audio projects, http://freewavesamples.com/
+
+**Akustik, Synthesizer, Klangsynthese**
 
 The Physics Hypertextbook. Music & Noise, Glenn Elert, http://physics.info/music/
 
+Amplitude Modulation. An interactive demo which enables you to both see and hear the result of multiplying a sine wave with a cosine amplitude envelope, https://academo.org/demos/amplitude-modulation/
+
+**Akustik, Klang, Musiktheorie**
+
 Music Theory for Musicians and Normal People, Toby W. Rush, http://tobyrush.com/theorypages/
+
+Professional music theory: an outline of basic music theory, by Oscar van Dillen ©2011-2016, http://www.oscarvandillen.com/outline_of_basic_music_theory/
 
 **Kreativität & Ästhetik**
 
@@ -162,7 +170,7 @@ DeSantis, Dennis (2015): Making Music. 74 Creative Strategies for Electronic Mus
 Bense, Arne (2016): Live – eine gelöschte Unterscheidung, Blogbeitrag vom 12.08.2016, letzter Abruf am: 10.10.2016, https://netzpolitik.org/2016/live-eine-geloeschte-unterscheidung/
 Was bedeutet eigentlich „live“? Obwohl die Beantwortung dieser Frage alles andere als trivial ist, geistert der Begriff durch die Welt der elektronischen Musik und trennt die Szene in elektronische Live- und DJ-Culture.
 
-***Live Coding***
+**Live Coding**
 
 Bericht über Live-Coding im Deutschlandfunk vom 18.10.2016, http://www.deutschlandfunk.de/live-coding-konferenz-die-leute-koennen-sehen-wie-musik.807.de.html?dram:article_id=368890
 

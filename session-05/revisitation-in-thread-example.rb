@@ -1,110 +1,15 @@
+# Session 05
 # Revisitation of Previous Sessions
-# filename: revisitation.rb
+# filename: revisitation-in-thread-example.rb
 
-comment do
-  # play_pattern_timed
-  play_pattern_timed (ring :c3, :c3, :g3, :bb3), (ring 0.5)
-end #comment
+use_bpm 130
 
-comment do
-  # play_pattern_timed, synth, extended bassline
+################################################################################
+# Definition of Song Parts
+################################################################################
 
-  # General Settings
-  # What Temp?
-  use_bpm 130
-
-  # What synth?
-  use_synth :fm
-  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.5
-
-  4.times do
-    play_pattern_timed (ring :c3, :c3, :g3, :bb3, :c4, :g3, :bb3, :c4), (ring 0.5)
-  end
-end #comment
-
-comment do
-  ################################################################################
-  # Using Functions
-  ################################################################################
-
-  # General Settings
-  # What Temp?
-  use_bpm 130
-
-  # What synth?
-  use_synth :fm
-  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.5
-
-  define :bassline_a do
-    3.times do
-      play_pattern_timed (ring :c3, :c3, :g3, :bb3), (ring 0.5)
-    end
-  end
-
-  define :bassline_b do
-    play_pattern_timed (ring :c4, :g3, :bb3, :c4), (ring 0.5)
-  end
-
-  # Play the Bassline (4 bars)
-  bassline_a
-  bassline_b
-
-end #comment
-
-comment do
-  ################################################################################
-  # Using a Live-Loop for the Bassline
-  ################################################################################
-
-  use_bpm 130
-
-  use_synth :fm
-  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.5
-
-  bassline = (ring :c3, :c3, :g3, :bb3,
-                   :c3, :c3, :g3, :bb3,
-                   :c3, :c3, :g3, :bb3,
-                   :c4, :g3, :bb3, :c4)
-
-  live_loop :bass do
-    play bassline.tick
-    sleep 0.5
-  end
-
-end #comment
-
-
-comment do
-  ################################################################################
-  # Adding Filters
-  ################################################################################
-
-  use_bpm 130
-
-  use_synth :fm
-  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.5
-
-  bassline = (ring :c3, :c3, :g3, :bb3,
-                   :c3, :c3, :g3, :bb3,
-                   :c3, :c3, :g3, :bb3,
-                   :c4, :g3, :bb3, :c4)
-
-  live_loop :bass do
-    with_fx :lpf, cutoff: 50 do
-      play bassline.tick, amp: 3
-    end
-    sleep 0.5
-  end
-
-end #comment
-
-uncomment do
-  ################################################################################
-  # Adding Let the Synth & Filter look
-  ################################################################################
-
-  use_bpm 130
-
+# Bassline in
+define :bassline_in do
   use_synth :fm
   use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.75
 
@@ -113,141 +18,142 @@ uncomment do
                    :c3, :c3, :g3, :bb3,
                    :c4, :g3, :bb3, :c4)
 
-  cutoff = (line 30, 120, steps: 128, inclusive: true).ramp
+  cutoff = (line 30, 130, steps: 128, inclusive: true).ramp
   depth = (line 0.5, 4, steps: 128, inclusive: true).ramp
+  res = (line 0.5, 0.95, steps: 264, inclusive: true).ramp
 
-  live_loop :bass do
-    with_synth_defaults depth: depth.look, release: 0.75 do
-      with_fx :lpf, cutoff: cutoff.look do
-        play bassline.tick, amp: 1
+  in_thread do
+    64.times do
+      with_synth_defaults depth: depth.look, release: 0.75 do
+        with_fx :rlpf, cutoff: cutoff.look, res: res.look do
+          play bassline.tick, amp: 1
+        end
+        sleep 0.5
       end
-      sleep 0.5
     end
   end
+end
 
-end #comment
+# Bassline (without changes of timbre)
+define :bassline do
+  use_synth :fm
+  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.75
 
+  bassline = (ring :c3, :c3, :g3, :bb3,
+                   :c3, :c3, :g3, :bb3,
+                   :c3, :c3, :g3, :bb3,
+                   :c4, :g3, :bb3, :c4)
 
-comment do
-  ################################################################################
-  # A Kick Drum
-  ################################################################################
-
-  use_bpm 130
-
-  live_loop :kick do
-    sample :bd_haus
-    sleep 1
-  end
-
-end #comment
-
-
-uncomment do
-  ################################################################################
-  # A Bit of Rhythm Variation
-  ################################################################################
-
-  use_bpm 130
-
-  live_loop :kick do
-    bd = (ring 2, 0, 0, 0, 2, 0, 0, 0.5, 2, 0, 0, 0, 2, 0.5, 0, 1)
-    if bd.tick != 0
-      sample :bd_haus, amp: bd.look
+  in_thread do
+    32.times do
+      with_synth_defaults depth: 4, release: 0.75 do
+        with_fx :rlpf, cutoff: 130, res: 0.95 do
+          play bassline.tick, amp: 1
+        end
+        sleep 0.5
+      end
     end
-    sleep 0.25
   end
+end
 
-end #comment
+# Bassline out
+define :bassline_out do
+  use_synth :fm
+  use_synth_defaults divisor: 2 , depth: 2, attack: 0, sustain: 0, release: 0.75
 
-comment do
-  ################################################################################
-  # A Simple Hihat
-  ################################################################################
+  bassline = (ring :c3, :c3, :g3, :bb3,
+                   :c3, :c3, :g3, :bb3,
+                   :c3, :c3, :g3, :bb3,
+                   :c4, :g3, :bb3, :c4)
 
-  use_bpm 130
+  cutoff = (line 30, 130, steps: 64, inclusive: true).reverse.ramp
+  depth = (line 0.5, 4, steps: 64, inclusive: true).reverse.ramp
+  res = (line 0.5, 0.95, steps: 128, inclusive: true).reverse.ramp
 
-  live_loop :hihat do
-    sleep 0.5
-    sample :drum_cymbal_closed, amp: 2, finish: 0.15
-    sleep 0.5
+  in_thread do
+    64.times do
+      with_synth_defaults depth: depth.look, release: 0.75 do
+        with_fx :rlpf, cutoff: cutoff.look, res: res.look do
+          play bassline.tick, amp: 1
+        end
+        sleep 0.5
+      end
+    end
   end
+end
 
-end #comment
+# A Simple Hihat
+define :hihat do
+  in_thread do
+    4.times do
+      4.times do
+        sleep 0.5
+        sample :drum_cymbal_closed, amp: 3, finish: 0.15
+        sleep 0.5
+      end
+    end
+  end
+end
 
-uncomment do
-  ################################################################################
-  # A Shaker
-  ################################################################################
-
-  use_bpm 130
-
+# Shaker
+define :shaker do
   use_synth :noise
   use_synth_defaults release: 0.15
 
-  live_loop :shaker do
+  in_thread do
+    16.times do
+      2.times do
+        with_fx :hpf, cutoff: 115 do
+          play :c, amp: 1.5
+        end
+        sleep 0.25
 
-    with_fx :hpf, cutoff: 115 do
-      play :c, amp: 1.5
+        with_fx :hpf, cutoff: 110 do
+          play :c
+        end
+        sleep 0.25
+      end
     end
-    sleep 0.25
-
-    with_fx :hpf, cutoff: 110 do
-      play :c
-    end
-    sleep 0.25
   end
+end
 
-end #comment
-
-comment do
-  ################################################################################
-  # Rhythm Chords
-  ################################################################################
-
-  use_bpm 130
-
-  use_synth :dsaw
-  use_synth_defaults release: 0.25
-  chord_1 = chord(:c4, '7sus4')
-  chord_rhythm = (ring 1, 0, 1, 0,
-                       0, 1, 0, 1,
-                       1, 0, 0, 0,
-                       0, 1, 0, 1)
-
-  live_loop :chords do
-
-    if chord_rhythm.tick != 0
-      play chord_1, amp: 3
+define :kick do
+  in_thread do
+    bd = (ring 2, 0, 0, 0, 2, 0, 0, 0.5, 2, 0, 0, 0, 2, 0.5, 0, 1)
+    64.times do
+      if bd.tick != 0
+        sample :bd_haus, amp: bd.look
+      end
+      sleep 0.25
     end
-    sleep 0.25
-
   end
+end
 
-end #comment
 
-comment do
-  ################################################################################
-  # Rhythm Chords with Random Variations
-  ################################################################################
 
-  use_bpm 130
+################################################################################
+# Play the Song
+################################################################################
 
-  use_synth :dsaw
-  use_synth_defaults release: 0.15
+bassline_in
+sleep 16
 
-  chord = (ring :sus2, :r, :sus2, :r,
-                :r, :sus2, :r, :sus2,
-                :sus2, :r, :r, :r,
-                :r, :sus2, :r, :sus2)
+hihat
+sleep 16
 
-  live_loop :chords do
+bassline
+hihat
+shaker
+sleep 16
 
-    if chord.tick != :r
-      play chord.look, amp: 3
-    end
-    sleep 0.25
+bassline
+hihat
+shaker
+kick
+sleep 16
 
-  end
+hihat
+shaker
+bassline_out
+sleep 32
 
-end #comment

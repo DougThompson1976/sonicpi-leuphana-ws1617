@@ -75,28 +75,15 @@ end
 define :mod_metro do
   in_thread do
     4.times do
-      #in_thread do
-        # internal time structure
-        sample :elec_blip
-        sample :elec_blip, rate: 0.5
-        sleep 1
-        sample :elec_blip
-        sleep 1
-        sample :elec_blip
-        sleep 1
-        sample :elec_blip
-        sleep 1
-      #end
-      # time to separate the 4 runs:
-      # without 'sleep 4' Sonic Pi plays all 4 runs
-      #at the same time due to 'in_thread'
-      # without 'in_thread' Sonic Pi plays the loop and
-      # waits for 4 beats because code will
-      # be successively processed
-      # Tip: If an expected repetition in your code does not happen
-      # (such as 4 notes or drum beats) check if all beats are played
-      # at the same time (the effect is, that it is play louder)
-      #sleep 4
+      sample :elec_blip
+      sample :elec_blip, rate: 0.5
+      sleep 1
+      sample :elec_blip
+      sleep 1
+      sample :elec_blip
+      sleep 1
+      sample :elec_blip
+      sleep 1
     end
   end
 end
