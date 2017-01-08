@@ -23,57 +23,57 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ## Sequenzierung
 
-![02](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-02.png)
+![Sequenzierung 1](img/sv-02.png)
 
 1. Text
 2. Text
 
-![03](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-03.png)
+![Sequenzierung 2](img/sv-03.png)
 
 1. Text
 2. Text
 
 ## Annotation
 
-![04](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-04.png)
+![Annotation 1](img/sv-04.png)
 
 1. Text
 2. Text
 
-![09](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-09.png)
+![Annotation 2](sv-09.png)
 
 1. Text
 2. Text
 
 ## Auswahl und Looping
 
-![05](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-05.png)
+![Auswahl und Looping](sv-05.png)
 
 1. Text
 2. Text
 
 ## Wiedergabegeschwindigkeit
 
-![06](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-06.png)
+![Wiedergabegeschwindigkeit](img/sv-06.png)
 
 1. Text
 2. Text
 
-## Peak Bins
+## Peak Frequency
 
-![07](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-07.png)
+![Peak Frequency 1](img/sv-07.png)
 
 1. Text
 2. Text
 
-![08](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-08.png)
+![Peak Frequency 2](img/sv-08.png)
 
 1. Text
 2. Text
 
 ## Equalizer
 
-![10](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser/img/sv-10.png)
+![Equalizer](img/sv-10.png)
 
 1. Text
 2. Text
