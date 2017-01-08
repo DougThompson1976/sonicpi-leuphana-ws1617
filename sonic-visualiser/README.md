@@ -73,7 +73,7 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 1. Mit angewählter `Auswahl`- und `Loop`-Taste kann man nun 
 2. die Laufgeschwindigkeit hoch- oder herunterregeln. Dabei bleibt die Tonhöhe erhalten.
-3. Auswahlen können auch exportiert werden. D. h. mit dem Sonic Visualiser kann man auch Loops zur Verwendung als Sample erstellen.
+3. Auswahlen können auch exportiert werden. D. h. mit dem Sonic Visualiser kann man auch Loops zur Verwendung als Sample erstellen. (1. Auswahl erstellen; 2. `File > Export Audio File`; dann nach Angabe eines Dateinamens und Formats `Export the selected region only` auswählen.)
 
 ## Peak Frequency
 
