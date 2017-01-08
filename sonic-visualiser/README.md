@@ -21,28 +21,31 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 1. Wiedergabesteuerung
 2. Werkzeuge
   - Navigation/Verschieben der Time-Line
+    - Weitere Möglichkeiten:
+      - Das Mausrad zoomt in die Wellenform hinein bzw. heraus
+      - `Strg` plus Mausrad scrollt vor oder zurück
   - Auswahlwerkzeug
   - Verschieben (z. B. von Text)
   - Editieren (z. B. von Text)
   - Löschen (z. B. von Text)
-3. Aktuell anzeigbare Ebenen
-  1. Einstellungen für alle Ebenen
-  2. Zeitunterteilung
-  3. Wellenform
-  4. Einteilung in Abschnitte
+3. Aktuelle Ebenen
+  - Ebene 1: Einstellungen für alle Ebenen
+  - Ebene 2: Zeitunterteilung
+  - Ebene 3: Wellenform
+  - Ebene 4: Einteilung in Abschnitte (manuell hinzugefügt)
 
 ## Sequenzierung
 
 ![Sequenzierung 1](img/sv-02.png)
 
-1. Eingefügte und automatisch numerierte Markierungen bzw. Takte (mit `Enter` oder `;`)
-2. Jede Ebene (hier die Unterteilung in Takte) bietet eigene Einstellungen (hier: Farbe und Ansichtsmodus)
-3. Die Taktmarkierungen können mit einem rhythmischen Klang hörbar gemacht werden; man kann sie ausblenden oder stummschalten sowie Lautstärke und Position im Stereo-Panorama regeln.
+1. Manuell und automatisch numerierte Taktmarkierungen (mit `Enter` oder `;`)
+2. Jede Ebene (hier die Taktmarkierungen) bietet eigene Einstellungen (für aktuelle Ebene sind das die Farbe und der Ansichtsmodus)
+3. Die Taktmarkierungen können mit einem rhythmischen Klang hörbar gemacht werden; man kann sie ausblenden oder stummschalten sowie Lautstärke und Position im Stereo-Panorama regeln
 
 ![Sequenzierung 2](img/sv-03.png)
 
 1. Die Ebene mit den Takteinteilung im Modus `Segmentation` und in violett eingefärbt
-2. Die Takte werden wechselseitig hell bzw. dunkler gekennzeichnet.
+2. Die Takte werden wechselseitig hell bzw. dunkler gekennzeichnet
 
 ## Annotation
 
@@ -54,14 +57,14 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ![Annotation 2](img/sv-09.png)
 
-- Wenn eine Ebene Text enthalten kann (z. B. 4. Takte und 5. Textlabels) und angewählt ist, 
+- Wenn eine Ebene Text enthalten kann (in der Ansicht z. B. Ebene 4 und 5) und angewählt ist, 
 - dann wird mit der Taste `e` ein Editor eingeblendet. Man kann damit die Markierungen ändern und durch Anklicken auch hin-und-her-springen.
 
 ## Auswahl und Looping
 
 ![Auswahl und Looping](img/sv-05.png)
 
-1. Mit dem Auswahlwerkzeug kann man in einer Ebene mit Markierungen den Bereich zwischen zwei Markierungen durch Anklicken markieren (hier z. B. einen Takt).
+1. Mit dem Auswahlwerkzeug kann man den Bereich zwischen zwei Markierungen durch Anklicken auswählen (hier z. B. einen Takt).
 2. Mit angewählter Taste `nur Auswahl wiedergeben` und `loopen` wird der Takt in der Wiedergabe automatisch geloopt.
 
 ## Wiedergabegeschwindigkeit
@@ -75,8 +78,8 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ![Peak Frequency 1](img/sv-07.png)
 
-1. Es gibt diverse Ansichten, die als neues Teilfenster (oder auch als Ebene) hinzugefügt werden können; sinnvoll ist z. B. das `Peak Frequency Spectrogramm`, 
-2. mit dem man sich eine grafische Darstellung der lautesten Frequenzen (`Peak Bins`) zeigen lassen kann. 
+1. Es gibt weitere Ansichten (ausser der Wellenform), die als neues Teilfenster (oder auch als Ebene) hinzugefügt werden können; sinnvoll ist z. B. das `Peak Frequency Spectrogram`, 
+2. mit dem man sich eine grafische Darstellung der prägnantesten Frequenzen (`Peak Bins`) anzeigen lassen kann. Das Auswahlfeld `Windows` regelt die Auflösung der Darstellung; zur Analyse ist hier eher ein geringerer Wert geeignet.
 
 ![Peak Frequency 2](img/sv-08.png)
 
@@ -87,4 +90,4 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ![Equalizer](img/sv-10.png)
 
-- Plugins wie z. B. Equalizer oder Filter helfen dabei einzelne Frequenzbereiche zur besseren Analyse auszublenden oder zu separieren.
+- Plugins wie z. B. Equalizer oder Filter helfen dabei, einzelne Frequenzbereiche (z. B. Bass oder Rhythmus der Hihat) zur besseren Analyse auszublenden oder zu separieren.
