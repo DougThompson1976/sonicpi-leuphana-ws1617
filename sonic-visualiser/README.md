@@ -4,17 +4,15 @@ Sonic Visualizer ist eine Software, mit der Klangdateien analysiert und annotier
 
 ## Download, Plugins und Hilfe
 
-* [Homepage](http://sonicvisualiser.org/)
-* [Download](http://sonicvisualiser.org/download.html)
-* [Plugins](http://www.vamp-plugins.org/)
-** [Melodische und harmonische Analyse](http://www.isophonics.net/nnls-chroma)
-** [Effekte und Filter (nur Linux)](http://plugin.org.uk/download.php)
-* Hilfe
-** [Dokumentation (Englisch)](http://sonicvisualiser.org/documentation.html)
-** [Videos zur Einführung](http://sonicvisualiser.org/videos.html)
+- [Homepage](http://sonicvisualiser.org/)
+- [Download](http://sonicvisualiser.org/download.html)
+- [Plugins](http://www.vamp-plugins.org/)
+  - [Melodische und harmonische Analyse](http://www.isophonics.net/nnls-chroma)
+  - [Effekte und Filter (nur Linux)](http://plugin.org.uk/download.php)
+- Hilfe
+  - [Dokumentation (Englisch)](http://sonicvisualiser.org/documentation.html)
+  - [Videos zur Einführung](http://sonicvisualiser.org/videos.html)
 
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## Playback, Werkzeuge und Ebenen
 
