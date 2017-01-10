@@ -1,9 +1,11 @@
 # AFX 1.9
+# filename: afx-1-9-b2.rb
+
 # Due to a size restriction in Sonic Pi, there are 3 numbered files:
 # afx-1-9-b1.rb -> first buffer
 # afx-1-9-b2.rb -> second buffer
 # afx-1-9-b3.rb -> third buffer
-# Evaluate them in this order.
+# Evaluate these in this order.
 #
 # 1st buffer: set up some helper functions and define rhythmic/melodic patterns
 
@@ -13,6 +15,7 @@ use_bpm 128
 # Helper Functions
 
 # Return note duration based on the defined rythmic pattern
+# Count number of elements in ptn, return single note value
 define :get_dur do |ptn|
   if ptn.count == 1
     d = 4
@@ -35,8 +38,7 @@ end
 define :play_sample do |spec, ptn|
   # take orders, what and how to play
 
-  # work out time measure
-  d = get_dur ptn
+  d = get_dur ptn # get duration of sample call
 
   ptn.each do |i|
     if i != 0
@@ -65,7 +67,7 @@ define :play_synth do |notes|
   end
 end
 
-uncomment do
+comment do
   # TEST the sliding melody code
   pattern = [[:to,3,2,2,:g4,:c5]]
   use_synth :fm
@@ -148,13 +150,13 @@ end
 
 # lines for synths
 define :get_bodn_fg_ptn do
-  bodn_fg_ptn  = [[:e4,:a3],:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-]
+  bodn_fg_ptn  = [[:e4,:a3]]
 end
 define :get_bodn_bg_ptn do
-  bodn_bg_ptn  = [[:e3,:a2],:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-]
+  bodn_bg_ptn  = [[:e3,:a2]]
 end
 define :get_bodn_pk_ptn do
-  bodn_pk_ptn  = [[:e5,:a4],:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-,:-]
+  bodn_pk_ptn  = [[:e5,:a4]]
 end
 
 define :get_frog_ptn do
@@ -225,20 +227,6 @@ define :get_tune_ptn_b4 do
                     :-,:-,:b5,:-,
                     :a5,:-,:-,:-]
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

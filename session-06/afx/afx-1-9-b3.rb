@@ -1,12 +1,9 @@
 # AFX 1.9
 # 3rd buffer: play the tune
+# filename: afx-1-9-b3.rb
 
-set_sched_ahead_time! 4
+set_sched_ahead_time! 2
 use_debug  false
-
-path = "/home/marty/projects/leuphana-ws1516/session-4/afx/"
-load_samples [:loop_compus, :elec_wood, :drum_bass_hard, :drum_snare_hard, :drum_snare_hard, :drum_cymbal_closed, :elec_snare, :drum_tom_hi_soft, "#{path}tambourine.wav"]
-use_sample_pack_as path, :afx
 
 use_bpm 128
 

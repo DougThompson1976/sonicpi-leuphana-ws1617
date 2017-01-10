@@ -1,26 +1,22 @@
 # AFX 1.9
 # 2nd buffer: define song modules and instruments
+# filename: afx-1-9-b2.rb
 
 use_debug false
 
-path = "/home/marty/projects/leuphana-ws1516/session-4/afx/"
-load_samples [:loop_compus, :elec_wood, :drum_bass_hard, :drum_snare_hard, :drum_snare_hard, :drum_cymbal_closed, :elec_snare, :drum_tom_hi_soft, "#{path}tambourine.wav"]
-use_sample_pack_as path, :afx
-
-
+tambourine = "/home/marty/projects/sonicpi/leuphana-ws1617/online/session-06/afx/tambourine.wav"
 
 define :mod_shaker do
-
   in_thread do
     2.times do
-      play_sample [:afx__tambourine, 3, 1, 0, 0, 1], get_cbsa_on_ptn_a
-      play_sample [:afx__tambourine, 3, 1, 0, 0, 1], get_cbsa_on_ptn_b
+      play_sample [tambourine, 3, 1, 0, 0, 1], get_cbsa_on_ptn_a
+      play_sample [tambourine, 3, 1, 0, 0, 1], get_cbsa_on_ptn_b
     end
   end
   in_thread do
     2.times do
-      play_sample [:afx__tambourine, 2, 0.95, 0, 0, 1], get_cbsa_of_ptn_a
-      play_sample [:afx__tambourine, 2, 0.95, 0, 0, 1], get_cbsa_of_ptn_b
+      play_sample [tambourine, 2, 0.95, 0, 0, 1], get_cbsa_of_ptn_a
+      play_sample [tambourine, 2, 0.95, 0, 0, 1], get_cbsa_of_ptn_b
     end
   end
 end

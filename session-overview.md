@@ -110,7 +110,7 @@ Datum: 13.12.2016
 Datum: 10.01.2016
 
 - Referat: Elektronische Musik II, "Advice to clever children": Aphex Twin, Plasticman, Scanner, Daniel Pemberton u.a.
-- Musikalische Analyse und Nachbau in Sonic Pi ([SonicVisualizer](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser), Codebeispiele und Erläuterungen)
+- Musikalische Analyse und Nachbau in Sonic Pi ([SonicVisualizer](https://github.com/mbutz/sonicpi-leuphana-ws1617/tree/master/sonic-visualiser), Codebeispiele und Erläuterungen zu Nachbau von [Digital Bubblebath](https://www.youtube.com/watch?v=Fy8h3kSef1E)/[Nachbau](https://soundcloud.com/mbutz/digital-bubblebath) und [Otaku](https://www.youtube.com/watch?v=OYusX7V1SaI)/[Nachbau](https://soundcloud.com/mbutz/otaku-1-from-series-rec-with-sonic-pi))
 - Pair Programming
 
 ### Referat

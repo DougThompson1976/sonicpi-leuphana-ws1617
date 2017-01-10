@@ -5,11 +5,8 @@ use_bpm 120
 
 
 # Download sample and adjust path to your environement
-path = "/home/marty/projects/leuphana-local/sonic-pi/mb/samples/", 0
-load_sample path, 2
 # http://www.freesound.org/people/kendallbear/sounds/123804/
-clap = path, 2
-
+clap = "/home/marty/projects/sonicpi/leuphana-ws1617/local/audio/Black Dog - Otaku/clap.wav"
 
 # Mixer ----------------------------------------------------------------------------
 run_organ = 0
