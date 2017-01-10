@@ -162,22 +162,10 @@ define :mod_tom do
   end
 end
 
-comment do
+uncomment do
   puts "Play the Drums - Pattern 1 ---------------------"
   mod_drums_1
   mod_hiht
-  sleep 16
-
-  puts "Play the Drums - Pattern 2 ---------------------"
-  mod_drums_2
-  mod_hiht
-  mod_tom
-  sleep 16
-
-  puts "Play the Drums - Pattern 1 ---------------------"
-  mod_drums_1
-  mod_hiht
-  #mod_tom
   sleep 16
 
   puts "Play the Drums - Pattern 2 ---------------------"
