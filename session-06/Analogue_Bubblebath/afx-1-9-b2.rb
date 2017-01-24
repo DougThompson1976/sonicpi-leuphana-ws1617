@@ -4,7 +4,7 @@
 
 use_debug false
 
-tambourine = "/home/marty/projects/sonicpi/leuphana-ws1617/online/session-06/afx/tambourine.wav"
+tambourine = "/home/marty/projects/sonicpi/leuphana-ws1617/online/session-06/Analogue_Bubblebath/afx/tambourine.wav"
 
 define :mod_shaker do
   in_thread do
