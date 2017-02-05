@@ -151,6 +151,14 @@ Philharmonic Orchestra: Thousands of free, downloadable sound samples specially 
 
 Free Wave Samples: Free Wave Samples provides high-quality wav files free for use in your audio projects, http://freewavesamples.com/
 
+Hiphop Production Resource & Free Samples, http://www.thesample.net/
+
+FLStudioMusic offers one of the biggest archive of free sample packs featuring one-shots, sound effects, vocals, foley and much more. http://www.flstudiomusic.com/category/free-sample-packs
+
+The Flipside (Forum), February 12, 2009 (ich weiss nicht, wie aktuell diese Liste ist), http://www.theflipsideforum.com/index.php?topic=11431.0
+
+The Bedroom Producers Blog, an online magazine about cheap and affordable music making software, hardware and other music production tools. http://bedroomproducersblog.com/category/sample-packs/
+
 **Akustik, Synthesizer, Klangsynthese**
 
 The Physics Hypertextbook. Music & Noise, Glenn Elert, http://physics.info/music/
