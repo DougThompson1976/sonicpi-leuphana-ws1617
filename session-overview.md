@@ -180,6 +180,8 @@ Was bedeutet eigentlich „live“? Obwohl die Beantwortung dieser Frage alles a
 
 **Live Coding**
 
+All things livecoding - A curated list of livecoding languages and tools, https://github.com/lvm/awesome-livecoding/
+
 Bericht über Live-Coding im Deutschlandfunk vom 18.10.2016, http://www.deutschlandfunk.de/live-coding-konferenz-die-leute-koennen-sehen-wie-musik.807.de.html?dram:article_id=368890
 
 Sam Aaron live coding a DJ set with Sonic Pi, https://www.youtube.com/watch?v=KJPdbp1An2s
