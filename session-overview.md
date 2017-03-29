@@ -161,6 +161,8 @@ The Bedroom Producers Blog, an online magazine about cheap and affordable music 
 
 **Akustik, Synthesizer, Klangsynthese**
 
+How do Synthesizers work, http://www.explainthatstuff.com/synthesizers.html, (basale aber gut verständliche Einführung)
+
 The Physics Hypertextbook. Music & Noise, Glenn Elert, http://physics.info/music/
 
 Amplitude Modulation. An interactive demo which enables you to both see and hear the result of multiplying a sine wave with a cosine amplitude envelope, https://academo.org/demos/amplitude-modulation/
