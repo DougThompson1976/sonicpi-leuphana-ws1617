@@ -200,4 +200,6 @@ The Wood-Song: Ambient Live Coding Exercise with Sonic Pi, M.Butz, https://www.y
 
 Live Coding with Sonic Pi, M. Butz, https://www.youtube.com/watch?v=80Sw7G-4nno
 
+Personal Live Coding Challenge #2, M. Butz, https://www.youtube.com/watch?v=WOaLgQ_p2S0
+
 Toplap - Home of Live Coding, http://toplap.org/
